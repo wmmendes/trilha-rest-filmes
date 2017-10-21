@@ -2,3 +2,7 @@ language: java
 deplay:
   api-key:
     secure: Uk9Ni0iB6N+rSmM98qxt5IufZ2BnxRZ5/S8gWZQ3X8+d7dQRYdZFkC0f3KvwejbNIS1hmNDgIffHZbJYIAZJPagsw06v65sE2YqljcdF38FpNhI9M8lm+xJohX9fMV+edgzFHOGR/D6tX14VHjY9ievZCyUGVGgMIr2Efz0bswUhl1EKn2IBCrxWPVPA1T9MJV+X+l+CUfRgsO7pBpYimRIUBgaofmLgJGE/KIIqpXEeOSySkaVG6BHgVbHi9RsZPVm2P+cENnyXC7usiGy+BAtac/+lWX58wf3aMEU4aJ4MTffJjubaG03v6rILtS5UNMwN7F5D/dbsrOZmqdpfrnHnT2R4jbGv0Do2jPIgQtUNipoRar+B52Ffa1cjoyLqWZ8RuNy8Q7JIEMNooVdKBLDq8oglF1dnwjOuuvlL1aHk9g1NT1udc0SmG3SnB7VlCJdNNgBpB51w4XmEwSQWkgbuajdNyTnGyw7+lP6H1ULK5Ceyb7SK2TcDLVPnbz9HmBs5MpOWZaOfuO6RxtfBIVUxEX4FYGthWgjuuWOiQ56h7hhB1XODLhOlD0TcNMffWvEmC/mQj1Xd1t/DZBmHujrKFC3JHQB3gk9dKUePSEI0jcblPmbCa/oG8gZeZnwtd5BcRLfVEc0zCzigXQvUBJfPlfi+OJ5dGhuzYWeh9Zk=
+  provider: heroku
+  app:
+    staging: wmm-trilharest-filmes-stag
+    master: wmm-trilharest-filmes-prod

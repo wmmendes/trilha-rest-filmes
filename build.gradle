@@ -6,6 +6,10 @@
  * user guide available at https://docs.gradle.org/4.2.1/userguide/tutorial_java_projects.html
  */
 
+plugins {
+    id 'org.springframework.boot' version '1.5.7.RELEASE'
+}
+
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 apply plugin: 'idea'
@@ -31,5 +35,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.7.RELEASE'
+}
+
+task stage {
+    dependsOn build
 }
 
